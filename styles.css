@@ -1,0 +1,50 @@
+.navbar-menu {
+  padding-top: 20px;
+  display: table;
+  width: 100%;
+  padding-left: 100px;
+  padding-bottom:20px;
+}
+
+.logo {
+  color: #0290FF;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 30px;
+  margin: auto;
+  display: table-cell;
+  width:240px;
+}
+
+.navbar-items {
+  display: table-cell;
+  vertical-align: middle;
+  text-align:right;
+  padding-left: 15px;
+  font-size: 10px;
+  font-weight: normal;
+  color: #121212;
+}
+
+.navbar-last-item {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 10px;
+  font-weight: normal;
+  color: #121212;
+  text-align:right;
+  float: right;
+  width: 600px;
+}
+
+.content {
+  background-color: #FAFAFA;
+}
+
+.panel {
+  margin-top:20px;
+}
+
+a {
+  color: black;
+}
