@@ -5,28 +5,136 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css-circular-prog-bar.css">
+    <script src="scripts.js" charset="utf-8"></script>
     <title></title>
   </head>
   <body>
-    <div class="container-fluid" style="border-bottom: 2px solid lightgray;">
+    <div class="book-store-cms-main" style="border-bottom: 2px solid lightgray;">
       <!-- header -->
       <div class="navbar-menu">
-        <div class="logo">Bookstore CMS</div>
-        <div class="navbar-items"><a href="#">BOOKS</a></div>
-        <div class="navbar-items"><a href="#">CATEGORIES</a></div>
-        <div class="navbar-last-item"><img src="user-icon.png" style="width:45px;"/></div>
-      </div>
-      <!-- header -->
-    </div>
-    <div class="container-fluid content">
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-body">TEST PANEL</div>
+        <div class="navbar-items">
+          <span class="navbar-items-logo"><a href="#">Bookstore CMS</a></span>
+          <span class="navbar-items-books"><a class="navbar-items-books"href="#">BOOKS</a></span>
+          <span class="navbar-items-categories"><a class="navbar-items-books"href="#">CATEGORIES</a></span>
+          <span class="navbar-items-profile">
+            <a href="#"><i class="fa fa-user fa-2x" style="color:#0290ff;"></i></a>
+          </span>
         </div>
       </div>
+      <!-- header -->
+      <!--  Content -->
+      <div class="content">
+        <div class="books-panel">
+          <div class="books-panel-item">
+                <div class="book-type">
+                  Action
+                </div>
+                <div class="book-title">
+                  <a href="#">The Hunger Games</a>
+                </div>
+                <div class="book-author">
+                  <a href="#">Suzanne Colins</a>
+                </div>
+                <div class="book-links">
+                  <a href="#"><span>Comments</span></a>
+                  <a href="#"><span>Remove</span></a>
+                  <a href="#"><span>Edit</span></a>
+                </div>
+                <span class="book-process-oval">
+                  <div class="book-process-oval progress-circle over50 p68">
+                     <div class="left-half-clipper">
+                        <div class="first50-bar"></div>
+                        <div class="value-bar"></div>
+                     </div>
+                  </div>
+                </span>
+                <span class="book-process-percent-complete">%64</span>
+                <span class="book-process-completed-text">Completed</span>
+                <span class="book-status-current-chapter">Current Chapter</span>
+                <span class="book-status-current-lesson">Chapter 17</span>
+                <button type="button" name="button" class="book-status-update-button">UPDATE PROGRESS</button>
+              </div>
+          <div class="books-panel-item">
+                <div class="book-type">
+                  Action
+                </div>
+                <div class="book-title">
+                  <a href="#">The Hunger Games</a>
+                </div>
+                <div class="book-author">
+                  <a href="#">Suzanne Colins</a>
+                </div>
+                <div class="book-links">
+                  <a href="#"><span>Comments</span></a>
+                  <a href="#"><span>Remove</span></a>
+                  <a href="#"><span>Edit</span></a>
+                </div>
+                <span class="book-process-oval">
+                  <div class="book-process-oval progress-circle p8">
+                       <div class="left-half-clipper">
+                          <div class="first-bar"></div>
+                          <div class="value-bar"></div>
+                       </div>
+                  </div>
+                </span>
+                <span class="book-process-percent-complete">%8</span>
+                <span class="book-process-completed-text">Completed</span>
+                <span class="book-status-current-chapter">Current Chapter</span>
+                <span class="book-status-current-lesson">Chapter 3 "A Lesson Learned"</span>
+                <button type="button" name="button" class="book-status-update-button">UPDATE PROGRESS</button>
+              </div>
+          <div class="books-panel-item">
+                <div class="book-type">
+                  Action
+                </div>
+                <div class="book-title">
+                  <a href="#">The Hunger Games</a>
+                </div>
+                <div class="book-author">
+                  <a href="#">Suzanne Colins</a>
+                </div>
+                <div class="book-links">
+                  <a href="#"><span>Comments</span></a>
+                  <a href="#"><span>Remove</span></a>
+                  <a href="#"><span>Edit</span></a>
+                </div>
+                <span class="book-process-oval">
+                  <div class="book-process-oval progress-circle p0">
+                       <div class="left-half-clipper">
+                          <div class="first-bar"></div>
+                          <div class="value-bar"></div>
+                       </div>
+                  </div>
+                </span>
+                <span class="book-process-percent-complete">%0</span>
+                <span class="book-process-completed-text">Completed</span>
+                <span class="book-status-current-chapter">Current Chapter</span>
+                <span class="book-status-current-lesson">Introduction</span>
+                <button type="button" name="button" class="book-status-update-button">UPDATE PROGRESS</button>
+          </div>
+          <div class="insert-book-panel">
+            <div class="insert-book-panel-title">
+              ADD A NEW BOOK
+            </div>
+              <input type="text" class="form-control insert-book-panel-title-input" placeholder="Book Title">
+              <select class="form-control insert-book-panel-category-select" id="sel1">
+                <option>Action</option>
+                <option>Science Fiction</option>
+                <option>Economy</option>
+              </select>
+              <button type="submit" class="insert-book-panel-submit-button">ADD BOOK</button>
+          </div>
+        </div>
+      </div>
+      <!--  Content -->
     </div>
-  <!! TODO !!>
   </body>
+  <script src="scripts.js" charset="utf-8"></script>
 </html>
