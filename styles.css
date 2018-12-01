@@ -3,15 +3,20 @@ body {
   height: 1097px;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 var(--black-5);
-  background-color: #fafafa;
+  background-color: #F5F6FA;
   margin: auto;
 }
+/*
 .book-store-cms-main {
   width: 1400px;
   height: 1097px;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 var(--black-5);
   margin: 149px 100px 0 99px;
+} */
+
+.header-navbar {
+  padding-left: 0px;
 }
 
 .navbar-menu {
@@ -27,6 +32,7 @@ body {
 .navbar-items {
   color: #121212;
   width: 100%;
+  padding-top: 30px;
 }
   .navbar-items-logo {
     height: 37px;
@@ -38,7 +44,7 @@ body {
     line-height: normal;
     letter-spacing: normal;
     color: #0290ff;
-    padding-left: 100px;
+    padding-left: 130px;
   }
 
   .navbar-items-books {
@@ -70,7 +76,7 @@ body {
   .navbar-items-profile {
     width: 45px;
     height: 45px;
-    padding-right: 320px;
+    padding-right: 160px;
     float: right;
   }
   .navbar {
@@ -88,14 +94,13 @@ body {
   width: 600px;
 }
 
+.panels-background {
+  background-color: #FAFAFA;
+}
+
 .content {
   padding-top: 38px;
-  background-color: #FAFAFA;
-  padding: 0 100px;
-  width: 1200px;
-  height: 170px;
   border-radius: 4px;
-  background-color: #ffffff;
 }
 
 .books-panel {
@@ -284,6 +289,7 @@ body {
 .insert-book-panel {
   padding-top: 71px;
   padding-right: 30px;
+  padding-bottom: 100px;
   display: grid;
   grid-template-columns: 3fr 1fr 143px;
   grid-template-rows: 50px 50px;'
